@@ -17,3 +17,8 @@
     border-right: 1px solid black;
     border-right-style: groove;
 }
+
+main {
+    display: flex;
+    flex-direction: row;
+}
