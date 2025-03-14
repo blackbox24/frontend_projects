@@ -78,8 +78,7 @@ ul#project-list li {
 }
 
 .work-exp {
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 10px;
@@ -94,6 +93,12 @@ ul#project-list li {
     align-items: center;
     justify-content: center;
     padding: 10px;
+}
+
+section#review-page {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 footer {
