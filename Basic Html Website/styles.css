@@ -125,7 +125,7 @@ footer {
     padding: 30px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     #sub-page section#review-page{
         flex-direction: row;
     }
