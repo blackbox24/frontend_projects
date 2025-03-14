@@ -126,7 +126,7 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    #sub-page section#review-page{
+    #sub-pages section#review-page{
         flex-direction: row;
     }
   }
