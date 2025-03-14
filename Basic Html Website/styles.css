@@ -9,7 +9,8 @@
     display: flex;
     justify-content:space-between;
     margin: 2%;
-    transform: skewX(-20deg)
+    transform: skewX(-20deg);
+    font-family: cursive, 'Times New Roman', Times, serif;
 }
 
 
