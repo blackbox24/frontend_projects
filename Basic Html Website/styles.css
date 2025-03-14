@@ -130,6 +130,7 @@ form div {
     flex-direction: column;
     padding-bottom: 10px;
 }
+
 form div input {
     padding: 5px;
     border: 1px solid #ff8122;
