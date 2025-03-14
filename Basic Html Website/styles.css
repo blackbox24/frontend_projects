@@ -132,3 +132,34 @@ footer {
         gap: 10px; /* Maintain spacing between children */
     }
 }
+
+form {
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    padding: 30px;
+}
+
+form div {
+    display: flex
+;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+form div input {
+    padding: 5px;
+    border: 1px solid #ff8122;
+    border-radius: 5px;
+}
+form div textarea {
+    border: 1px solid #ff8122;
+    border-radius: 5px;
+    width: 100%;
+}
+form button {
+    padding: 10px;
+    background-color: green;
+}
