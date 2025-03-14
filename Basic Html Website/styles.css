@@ -5,5 +5,20 @@
 
 #navbar{
     display: inline-flex;
+    flex-direction: row;
     justify-content:space-evenly;
+}
+
+#navbar a span{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: black;
+    margin: 2%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float:right;
 }
