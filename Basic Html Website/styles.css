@@ -35,6 +35,22 @@ main {
     font-family:"Goudy Bookletter 1911", cursive;
     border-bottom: 1px solid #000;
 }
+#sub-pages {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    border: 1px solid #000;
+}
+
+.projects .sub_sub_pages{
+    padding: 10px;
+}
+
+#project-list{
+    list-style: none;
+    border-bottom: 1px solid #000;
+}
 
 footer {
     display: flex;
