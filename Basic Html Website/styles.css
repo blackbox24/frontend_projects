@@ -1,18 +1,19 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: cursive;
 
 }
 
 #navbar{
-    width: 100%;
     display: flex;
     justify-content:space-between;
     margin: 2%;
-    transform: skewX(-20deg);
-    font-family: cursive, 'Times New Roman', Times, serif;
 }
 
+#navbar-items{
+    transform: skewX(-20deg);
+}
 
 #navbar-items a{
     text-decoration: none;
@@ -43,11 +44,34 @@ main {
 
 .sub_sub_pages{
     width: 100%;
+    display: flex;
+    flex-flow: column;
 }
 
 #project-list{
     list-style: none;
     border-bottom: 1px solid #000;
+}
+
+.sub_sub_pages {
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column;
+}
+
+.sub_sub_pages.education{
+    align-items: center;
+    padding: 20px;
+}
+
+.sub_sub_pages.education ul {
+    list-style: square;
+    padding-top: 20px;
+}
+
+.sub_sub_pages.education ul li {
+    padding-top: 10px;
 }
 
 footer {
