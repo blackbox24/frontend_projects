@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+
 }
 
 #navbar{
@@ -24,6 +25,11 @@ main {
     flex-direction: column;
 }
 
-#main-page{
-    padding:20%;
+#main-page {
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 30%;
+    padding-right: 0%;
+    font-family:"Goudy Bookletter 1911", cursive;
 }
