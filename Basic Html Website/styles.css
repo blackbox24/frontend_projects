@@ -116,7 +116,7 @@ div#reviews-list {
     margin-left: 10px;
 }
 
-form {
+#form form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,23 +125,23 @@ form {
     padding: 30px;
 }
 
-form div {
+#form form div {
     display: flex;
     flex-direction: column;
     padding-bottom: 10px;
 }
 
-form div input {
+#form form div input {
     padding: 5px;
     border: 1px solid #ff8122;
     border-radius: 5px;
 }
-form div textarea {
+#form form div textarea {
     border: 1px solid #ff8122;
     border-radius: 5px;
     width: 100%;
 }
-form button {
+#form form button {
     padding: 10px;
     background-color: green;
 }
