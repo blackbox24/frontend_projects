@@ -4,21 +4,16 @@
 }
 
 #navbar{
-    display: inline-flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-}
-
-#navbar a span{
-    border: 1px solid black;
-    padding: 20px;
-    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
     margin: 2%;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    float:right;
+
+#navbar-items a{
+    text-decoration: none;
+    padding: 12px;
+    border-right: 1px solid black;
+    border-right-style: groove;
 }
