@@ -42,22 +42,25 @@ main {
     width: 100%;
 }
 
-.sub_sub_pages{
+.sub_sub_pages {
     width: 100%;
+    border: 1px solid black;
     display: flex;
     flex-flow: column;
 }
 
 #project-list{
     list-style: none;
+}
+
+ul#project-list li {
+    padding-top: 10px;
     border-bottom: 1px solid #000;
 }
 
-.sub_sub_pages {
-    width: 100%;
-    border: 1px solid black;
-    display: flex;
-    flex-flow: column;
+.sub_sub_pages.projects h2 {
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 .sub_sub_pages.education{
@@ -72,6 +75,25 @@ main {
 
 .sub_sub_pages.education ul li {
     padding-top: 10px;
+}
+
+.work-exp {
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    padding-bottom: 50px;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+
+.open-src {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 
 footer {
