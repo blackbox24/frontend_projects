@@ -33,4 +33,11 @@ main {
     padding-left: 30%;
     padding-right: 0%;
     font-family:"Goudy Bookletter 1911", cursive;
+    border-bottom: 1px solid #000;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
