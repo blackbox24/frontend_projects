@@ -116,26 +116,8 @@ div#reviews-list {
     margin-left: 10px;
 }
 
-
-
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-}
-
-@media screen and (max-width: 600px) {
-    #sub-page section#review-page {
-        flex-direction: row;
-        justify-content: space-evenly; /* Spread out children */
-        gap: 10px; /* Maintain spacing between children */
-    }
-}
-
 form {
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -144,8 +126,7 @@ form {
 }
 
 form div {
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     padding-bottom: 10px;
 }
@@ -162,4 +143,21 @@ form div textarea {
 form button {
     padding: 10px;
     background-color: green;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    #sub-page section#review-page {
+        flex-direction: row;
+        justify-content: space-evenly; /* Spread out children */
+        gap: 10px; /* Maintain spacing between children */
+    }
 }
