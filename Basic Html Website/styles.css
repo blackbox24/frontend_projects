@@ -126,7 +126,9 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    #sub-pages section#review-page{
+    #sub-page section#review-page {
         flex-direction: row;
+        justify-content: space-evenly; /* Spread out children */
+        gap: 10px; /* Maintain spacing between children */
     }
-  }
+}
