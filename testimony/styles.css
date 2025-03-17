@@ -7,12 +7,19 @@ main{
 
 #container-1{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 #testimony-1{
+    display: flex;
+    flex-direction: column;
+    border:1px solid #000;
+}
+
+#testimony-2{
     display: flex;
     flex-direction: column;
     border:1px solid #000;
@@ -36,6 +43,19 @@ main{
     background: black;
     padding-left: 20px;
     color: #fff;
+    margin-bottom: 15px;
+    font-size: 125%;
+}
+
+#message-2{
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
     margin-bottom: 15px;
     font-size: 125%;
 }
