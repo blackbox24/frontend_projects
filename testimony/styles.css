@@ -116,3 +116,30 @@ main{
 #profile-role{
     color: lightslategray;
 }
+
+#container-3{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    border-radius: 25px;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comp-4-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,cursive;
+}
