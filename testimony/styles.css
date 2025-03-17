@@ -23,6 +23,7 @@ main{
     display: flex;
     flex-direction: column;
     border:1px solid #000;
+    border-radius: 20px;
 }
 
 #profile-1{
@@ -48,8 +49,6 @@ main{
 }
 
 #message-2{
-    border: 1px solid black;
-    border-radius: 20px;
     display: flex;
     flex-direction: column;
     width: 350px;
