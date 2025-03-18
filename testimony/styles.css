@@ -128,18 +128,41 @@ main{
     justify-content: center;
 }
 
-.img-carousel{
+.img-carousel {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
-.comp-4-message{
+.img-carousel > div.bullet{
+    font-size: 30px;
+    padding-right: 20px;
+}
+.comp-4-message {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, cursive;
+    padding: 20px;
+}
+
+.comp-4-message  > p {
+    text-align: center;
+}
+
+.img {
+    width: 70px;
+    border-radius: 80%;
+    height: 75px;
+    opacity: 50%;
+}
+
+img.img.active {
+    opacity: 100%;
+    height: 90px;
+    width: 80px;
 }
