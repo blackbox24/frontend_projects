@@ -12,15 +12,16 @@
 
     main{
         display: flex;
-        justify-content: center;
+        justify-self: center;
         align-items: center;
-        padding: 50%;
+        width: 170px;
+        border: 1px solid;
+        margin: 20%;
     }
 
     .calendar{
         display: flex;
         flex-direction: column;
-        padding-bottom: 20px;
         width: 100%;
     }
 
@@ -28,21 +29,48 @@
     .simple-input{
         display: flex;
         flex-direction: row;
+        border: 1px solid;
+        justify-content: space-between;
+    }
+
+    .calendar-option{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 0px;
+        border-bottom: 0px solid #fff;
+    }
+
+    .btn{
+        background: #000;
+        height: 20px;
+        align-self: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    table{
+        border: 1px solid #fff;
         width: 100%;
+        border-collapse: collapse;
+        text-align: center;
     }
-
-    .calendar-btn{
-        width: 200px;
-    }
-
     
+    table > thead{
+        border: 0px solid #fff;
+        border-bottom: 1px solid;
+    }
+
+    table > tbody{
+        border: 1px solid lightslategray;
+    }
 
 </style>
 <body>
     <main>
         <div class="calendar">
             <div class="simple-input">
-                <div class="dates">
+                <div class="dates" style="padding-left: 10px;">
                     <p>dd/mm/yyyy</p>
                 </div>
                 <button id="calendar-btn">
@@ -51,9 +79,9 @@
             </div>
             <div class="calendar-day">
                 <div class="calendar-option">
-                    <button id="prev-btn"></button>
+                    <button id=" btn prev-btn"></button>
                     <p>December 2022</p>
-                    <button id="forward-btn"></button>
+                    <button id="btn forward-btn"></button>
                 </div>
                 <table>
                     <thead>
@@ -65,7 +93,7 @@
                         <th>F</th>
                         <th>S</th>
                     </thead>
-                    <tbody>
+                    <tbody style="border: 1px solid lightslategray;">
                         <tr>
                             <td></td>
                             <td></td>
