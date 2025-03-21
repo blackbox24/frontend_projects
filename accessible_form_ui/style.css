@@ -34,6 +34,7 @@ form.form-input-section{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: larger;
     text-align: start;
+    padding-bottom: 6px;
 }
 
 input{
@@ -60,11 +61,47 @@ input{
 .btn {
     padding: 13px;
     border-radius: 10px;
-    width: 88%;
+    width: 92%;
     margin-top: 10px;
 }
 
 .btn-dark{
     background-color: #000;
     color: #fff;
+}
+
+.form-progress-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-progress{
+    border: 1px solid;
+    padding: 30px;
+    border-radius: 100%;
+    border-left: 4px solid;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-right: 2px solid grey;
+    margin-bottom: 120px;
+}
+
+.form-checklist{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    width: 183px;
+}
+
+.form-checklist > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background: lightgray;
+}
+
+li > del{
+    color: lightslategray
 }
