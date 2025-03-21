@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #000;
+    padding: 10%;
+}
+
+form.form-input-section{
+    display: flex;
+    flex-direction: column;
+}
+
+form.form-input{
+    padding: 0px;
+    width: 100%;
+}
+
+.form-input > label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    text-align: start;
+}
+
+input{
+    padding: 10%;
+    width: 100%;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid #000;
+}
+
+.error{
+    color: red;
+    font-size: 30px;
+}
+
+#email{
+    border-color: red;
+    color: red;
+}
+
+.btn {
+    padding: 30px;
+    border-radius: 5px;
+    width: 50px;
+}
+
+.btn-dark{
+    background-color: #000;
+    color: #fff;
+}

@@ -4,25 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accessible Form UI</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <main class="form">
         <section class="form-container">
-            <div class="form-input-section">
+            <form class="form-input-section" method="post" action="">
                 <div class="form-input" for="full_name">
+                    <label>Full Name</label>
                     <input type="text" name="full_name" id="full_name" placeholder="Waht should we call you?"/>
                 </div>
-                <div class="form-input" for="full_name">
-                    <input type="text" name="full_name" id="full_name" placeholder="Waht should we call you?"/>
+                <div class="form-input" for="email">
+                    <label>Email</label>
+                    <input type="text" name="email" id="email" placeholder="Email" value="john@doe.com"/>
+                    <p class="error">Email is already taken</p>
                 </div>
-                <div class="form-input" for="full_name">
-                    <input type="text" name="full_name" id="full_name" placeholder="Waht should we call you?"/>
+                <div class="form-input" for="password">
+                    <label>Enter Password</label>
+                    <input type="password" name="password" id="password" placeholder="xxxxxxx"/>
                 </div>
-                <div class="form-input" for="full_name">
-                    <input type="text" name="full_name" id="full_name" placeholder="Waht should we call you?"/>
+                <div class="form-input" for="cpassword">
+                    <label>Confirm Password</label>
+                    <input type="password" name="cpassword" id="cpassword" placeholder="xxxxxxx"/>
                 </div>
                 <button class="btn btn-dark" type="submit">Update profile</button>
-            </div>
+            </form>
             <div class="form-progress-section">
                 <div class="form-progress">
                     <p class="form-progress-percentage">65%</p>
