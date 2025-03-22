@@ -1,0 +1,14 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+
+.grid-container > section {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+  }
