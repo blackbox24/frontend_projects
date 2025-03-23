@@ -13,7 +13,7 @@ body{
     padding: 0px;
 }
 
-.grid-container > img {
+.grid-container > div > img {
     background-color: #f1f1f1;
     width: 100%;
   }
