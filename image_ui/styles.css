@@ -1,9 +1,9 @@
-body{
+/* body{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10%;
-}
+} */
 
 .grid-container{
     display: grid;
@@ -12,8 +12,17 @@ body{
     background-color: #fff;
     padding: 0px;
 }
-
-.grid-container > div > img {
+.grid-container > div{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+/* .grid-container > div > img {
     background-color: #f1f1f1;
     width: 100%;
-  }
+  } */
+
+.img-1{
+    grid-row: 1/ span 2;
+}
