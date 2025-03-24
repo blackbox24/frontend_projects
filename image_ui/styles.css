@@ -16,11 +16,4 @@
     flex: 50%;
     padding: 0 4px;
     grid-template-columns: auto auto auto;
-  }
-  
-.grid-container-img > img{
-    margin-top: 8px;
-    vertical-align: middle;
-    flex: 25%;
 }
-
