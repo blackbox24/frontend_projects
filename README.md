@@ -8,3 +8,4 @@ https://roadmap.sh/projects/changelog-component
 - [X] Testimony Components https://roadmap.sh/projects/testimonial-cards
 - [X] Datepicker UI https://roadmap.sh/projects/datepicker-ui
 - [x] Accessible Form UI https://roadmap.sh/projects/accessible-form-ui
+- [X] Image grid UI  https://roadmap.sh/projects/image-grid
