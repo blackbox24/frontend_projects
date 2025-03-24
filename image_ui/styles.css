@@ -6,11 +6,9 @@
 } */
 
 .grid-container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    background-color: dodgerblue;
-    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 4px;
 }
 .grid-container > div{
     background-color: #f1f1f1;
@@ -18,11 +16,14 @@
     padding: 10px;
     font-size: 30px;
 }
-/* .grid-container > div > img {
-    background-color: #f1f1f1;
-    width: 100%;
-  } */
 
-.img-1{
-    grid-row: 1/ span 2;
+.grid-container-img {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+.grid-container-img > img{
+    margin-top: 8px;
+    vertical-align: middle;
+    flex: 50%;
 }
